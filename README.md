@@ -1,5 +1,5 @@
 
-# CAMP-AT-IIIT
+# CAMP-IT-IIIT
 
 A free online mini coding bootcamp
 
@@ -9,13 +9,13 @@ A free online mini coding bootcamp
 Clone the project
 
 ```bash
-  git clone https://github.com/SumitPanda03/CampATIIIT.git
+  git clone https://github.com/SumitPanda03/Camp-IT-IIIT.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd CampATIIIT
+  cd Camp-IT-IIIT
 ```
 
 Install dependencies
