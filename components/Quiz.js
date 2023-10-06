@@ -50,7 +50,7 @@ function Quiz({ questions }) {
             {questions[currentQuestion].question}
           </div>
 
-          <div className="course__quiz-options">
+          {/* <div className="course__quiz-options">
             {questions[currentQuestion].options.map((answerOptions) => (
               <button
                 key={answerOptions.answer}
@@ -60,7 +60,7 @@ function Quiz({ questions }) {
                 {answerOptions.answer}
               </button>
             ))}
-          </div>
+          </div> */}
         </>
       )}
     </>

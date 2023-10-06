@@ -175,6 +175,7 @@ function CoursePage({ course }) {
   );
 }
 
+
 export const getStaticPaths = async () => {
   connect();
   const courses = await Course.find();
@@ -196,7 +197,7 @@ export const getStaticProps = async (context) => {
   connect();
   const courseID = context.params.course;
   const courses = await Course.find();
-  //   console.log(courses);
+    console.log(courses);
   const course = JSON.parse(JSON.stringify(courses)).find(
     (course) => course.course === courseID
   );

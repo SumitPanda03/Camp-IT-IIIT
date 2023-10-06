@@ -97,9 +97,9 @@ function Navbar() {
     <nav className="navigation">
       <Link href="/">
         <a className="navigation__logo">
-          <img src="/images/logo.png" width="60" height="60" alt="logo" />
-          <span className="navigation__logo--main">mini</span>
-          <span className="navigation__logo--sub">CodeCamp</span>
+          <img src="/images/logo.jpeg" width="60" height="60" alt="logo" />
+          <span className="navigation__logo--main">Camp</span>
+          <span className="navigation__logo--sub">-IT-IIIT</span>
         </a>
       </Link>
       <div className="navigation__links">
