@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import Image from "next/image";
 function Quiz({ questions }) {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [showScore, setShowScore] = useState(false);
@@ -50,7 +50,7 @@ function Quiz({ questions }) {
             {questions[currentQuestion].question}
           </div>
 
-          {/* <div className="course__quiz-options">
+          <div className="course__quiz-options">
             {questions[currentQuestion].options.map((answerOptions) => (
               <button
                 key={answerOptions.answer}
@@ -60,7 +60,30 @@ function Quiz({ questions }) {
                 {answerOptions.answer}
               </button>
             ))}
-          </div> */}
+          </div>
+          <section className="section-three">
+        <Image
+          src="/images/hashnode.png"
+          width="170"
+          height="170"
+          alt="hashnode"
+        />
+        <div className="section__text-box">
+          <p className="section-three__text">
+            Connect with the IIIT Bhubaneswar{" "}
+            <span style={{ color: "#2962ff", fontWeight: "700" }}>DEV</span>{" "}
+            community.
+          </p>
+          <a
+            href="https://hashnode.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="section-three__link"
+          >
+            Join hashnode team
+          </a>
+        </div>
+      </section>
         </>
       )}
     </>
